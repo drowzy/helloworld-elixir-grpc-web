@@ -1,6 +1,6 @@
 # grpc-web Helloworld in grpc-elixir
 
-Test project for tracking implementation of [grpc-web](https://github.com/grpc/grpc/blob/master/doc/PROTOCOL-WEB.md#protocol-differences-vs-grpc-over-http2) in [grpc-elixir](https://github.com/elixir-grpc/grpc) ([Fork](https://github.com/drowzy/grpc))
+Test project for tracking implementation of [grpc-web](https://github.com/grpc/grpc/blob/master/doc/PROTOCOL-WEB.md#protocol-differences-vs-grpc-over-http2) in [grpc-elixir](https://github.com/elixir-grpc/grpc) ([Fork](https://github.com/drowzy/grpc/tree/feature/grpc-web))
 
 ## Usage
 
