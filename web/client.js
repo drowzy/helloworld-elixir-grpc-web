@@ -28,7 +28,7 @@ var request = new HelloRequest();
 request.setName('World');
 
 client.sayHello(request, {}, (err, response) => {
-  console.log(response.getMessage());
+  console.log('Unary: ' + response.getMessage());
 });
 
 
@@ -39,7 +39,7 @@ streamRequest.setCount(5);
 
 var stream = client.sayRepeatHello(streamRequest, {});
 stream.on('data', (response) => {
-  console.log(response.getMessage());
+  console.log('Stream: ' + response.getMessage());
 });
 
 
